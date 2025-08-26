@@ -1,0 +1,166 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    background: #0e2a47;
+    color: #fff;
+}
+
+/* Barra lateral */
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    background: #112d4e;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: #00d4ff;
+}
+
+/* Filtros */
+.filtros h2 {
+    font-size: 16px;
+    margin: 15px 0 5px;
+}
+
+.tags span {
+    display: inline-block;
+    background: #00d4ff;
+    color: #000;
+    padding: 4px 10px;
+    border-radius: 12px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+/* Área principal */
+.main {
+    flex: 1;
+    padding: 20px;
+    background-color: linear-gradient(#0A192F, #1C3F60);
+}
+
+
+
+/* Barrra de pesquisa */
+.search-bar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 8px 10px;
+    border: none;
+    background: #00d4ff;
+    color: #000;
+    font-weight: bold;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+}
+
+/* Grade de jogos */
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+/* Card dosd  jogos */
+.card {
+    background: #16324f;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    width: 320px; 
+    margin: auto;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+}
+
+.card img {
+    width: 100%;
+    max-height: 140px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.buttons button {
+    flex: 1;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.buy {
+    background: #00d4ff;
+    color: #000;
+}
+
+.details {
+    background: #333;
+    color: #fff;
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    .games-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 768px) {
+    .games-grid {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+}
