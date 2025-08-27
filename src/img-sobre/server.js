@@ -1,32 +1,22 @@
-const express = require("express");
-const fs = require("fs");
-const app = express();
-const port = 3000;
+fetch("src/img-sobre/dadosjogos.json")
+  .then((response) => response.json())
+  .then((jogos) => {
+    const catalogo = document.getElementById("catalogo");
 
-// Serve arquivos estáticos (HTML, CSS, imagens)
-app.use(express.static(__dirname));
+    jogos.forEach((jogo) => {
+      const card = document.createElement("div");
+      card.className = "card";
 
-// Rota da API
-app.get("/api/jogo/:id", (req, res) => {
-  const jogoId = req.params.id;
+      card.innerHTML = `
+        <img src="${jogo.imagem}" alt="${jogo.nome}">
+        <h2>${jogo.nome}</h2>
+        <p>${jogo.descricao}</p>
+        <a href="#" id="btn-${jogo.id}">
+          <button>Acessar</button>
+        </a>
+      `;
 
-  fs.readFile("dados-jogo.json", "utf8", (err, data) => {
-    if (err)
-      return res
-        .status(500)
-        .json({ erro: true, mensagem: "Erro ao ler dados" });
-
-    const jogos = JSON.parse(data);
-    const jogo = jogos[jogoId];
-
-    if (jogo) {
-      res.json(jogo);
-    } else {
-      res.status(404).json({ erro: true, mensagem: "Jogo não encontrado" });
-    }
-  });
-});
-
-app.listen(port, () => {
-  console.log(`Servidor rodando em http://localhost:${port}`);
-});
+      catalogo.appendChild(card);
+    });
+  })
+  .catch((error) => console.error("Erro ao carregar JSON:", error));
