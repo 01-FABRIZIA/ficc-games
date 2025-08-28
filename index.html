@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="container nav-content">
+            <h1 class="logo">FICC GAMES</h1>
+
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Catálogo</a>
+                <a href="#">Entre ou cadastre-se</a>
+            </nav>
+
+            <button class="menu-button">
+                <img src="img/menu.png" alt="Menu">
+            </button>
+        </div>
+    </header>
+
+    <!-- Banner de Promoção -->
+    <section class="banner slider">
+        <div class="slider-content">
+           <input type="radio" name="btn-radio" id="radio1"> 
+           <input type="radio" name="btn-radio" id="radio2"> 
+           <input type="radio" name="btn-radio" id="radio3"> 
+           <input type="radio" name="btn-radio" id="radio4"> 
+
+           <div class="slide-box primeiro">
+            <a href="#"><img src="img/the-midnight-walk.avif" alt=""></a>
+           </div>
+
+           <div class="slide-box">
+            <a href="#"><img src="img/blue-prince.avif" alt=""></a>
+           </div>
+
+           <div class="slide-box">
+            <a href="#"><img src="img/valorant.avif" alt=""></a>
+           </div>
+
+           <div class="slide-box">
+            <a href="#"><img src="img/demon-slayer.avif" alt=""></a>
+           </div>
+
+           <div class="nav-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+           </div>
+
+           <div class="nav-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+           </div>
+
+        </div>
+    
+        <div class="banner-text">
+            <h2>Promoção de Verão</h2>
+            <p>até 40% OFF</p>
+        </div>
+    </section>
+
+    <!-- Mais Jogados -->
+    <section class="games-section">
+        <div class="container">
+            <h2>Mais Jogados</h2>
+            <div class="games-grid">
+                <div class="game-card">
+                    <img src="img/minecraft.avif" alt="Minecraft">
+                    <h3>Minecraft</h3>
+                    <p class="price">R$ 114,90</p>
+                    <a href="#" class="btn">Ver mais</a>
+                </div>
+                <div class="game-card">
+                    <img src="img/the-last-of-us.avif" alt="The Last Of Us Part II">
+                    <h3>The Last Of Us Part II</h3>
+                    <p class="price">R$ 284,90</p>
+                    <a href="#" class="btn">Ver mais</a>
+                </div>
+                <div class="game-card">
+                    <img src="img/stardewValley.avif" alt="Stardew Valley">
+                    <h3>Stardew Valley</h3>
+                    <p class="price">R$ 79,90</p>
+                    <a href="#" class="btn">Ver mais</a>
+                </div>
+                <div class="game-card">
+                    <img src="img/fortnite.avif" alt="Fortnite">
+                    <h3>Fortnite</h3>
+                    <p class="price">Gratuito</p>
+                    <a href="#" class="btn">Ver mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destaques -->
+    <section class="games-section">
+        <div class="container">
+            <h2>Destaques</h2>
+            <div class="carousel">
+                <button class="carousel-btn prev">&#10094;</button>
+                <div class="carousel-track-container">
+                    <ul class="carousel-track">
+                        <li class="carousel-slide">
+                            <img src="img/grand-theft-auto.webp" alt="GTA V">
+                            <h3>Grand Theft Auto V</h3>
+                            <p class="price">R$ 42,90</p>
+                            <a href="#" class="btn">Ver mais</a>
+                        </li>
+                        <li class="carousel-slide">
+                            <img src="img/roblox.avif" alt="Roblox">
+                            <h3>Roblox</h3>
+                            <p class="price">Gratuito</p>
+                            <a href="#" class="btn">Ver mais</a>
+                        </li>
+                        <li class="carousel-slide">
+                            <img src="img/call-of-duty.avif" alt="Call of Duty">
+                            <h3>Call of Duty</h3>
+                            <p class="price">Gratuito</p>
+                            <a href="#" class="btn">Ver mais</a>
+                        <li class="carousel-slide">
+                            <img src="img/spider-man.avif" alt="Marvel's Spider-man">
+                            <h3>Marvel's Spider-man</h3>
+                            <p class="price">R$ 284,90</p>
+                            <a href="#" class="btn">Ver mais</a>
+                        </li>
+                        <li class="carousel-slide">
+                            <img src="img/god-of-war.webp" alt="God Of War">
+                            <h3>God Of War</h3>
+                            <p class="price">R$ 114,90</p>
+                            <a href="#" class="btn">Ver mais</a>
+                        </li>
+                        <li class="carousel-slide">
+                            <img src="img/god-of-war-III.avif" alt="God Of War III Remastered">
+                            <h3>Call of Duty</h3>
+                            <p class="price">R$ 99,99</p>
+                            <a href="#" class="btn">Ver mais</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="carousel-btn next">&#10095;</button>
+            </div>
+            <div class="carousel-nav">
+                <button class="carousel-indicator current-slide"></button>
+                <button class="carousel-indicator"></button>
+                <button class="carousel-indicator"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="social-icons">
+            <img src="img/x-logo.png" alt="Twitter">
+            <img src="img/instagram-logo.png" alt="Instagram">
+            <img src="img/youtube.png" alt="YouTube">
+            <img src="img/linkedin.png" alt="Linkedin">
+        </div>
+        <p>Todos os direitos reservados</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
