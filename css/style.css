@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 /* ===== Reset ===== */
 * {
+=======
+*{
+>>>>>>> d724f269e50f257715dd55b5e0c9bf5179babf22
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     background-color: #0a192f;
@@ -303,6 +308,195 @@ footer p {
 }
 #radio4:checked ~ .primeiro{
     margin-left: -75%;
+=======
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    background: url('../img/imagem\ de\ fundo\ 03.png'); 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    background-color: #2C4D70;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.form{
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    min-height: 63vh;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 30%;
+    display: flex;
+
+
+    
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.form h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    color: white;
+    position: relative;
+}
+
+.form-content label{
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 18px; 
+}
+
+.form-content input{
+    margin-bottom: 6px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form-content a{
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    visibility: hidden;
+    font-size: 15px;
+}
+
+.form button{
+    background-image: linear-gradient(to right, #003BFF, #00BFFF);
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin: 20px auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form button:hover{
+    background-image: linear-gradient(to right, #00c8ff, #00BFFF);
+}
+
+.rodape{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.rodape .icones{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    
+}
+.rodape p {
+    margin-bottom: 5px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.form-content.error input{
+    border-color:#ff3b25 ;
+}
+
+.form-content.error a{
+    color: #fe0000;
+    visibility: visible;
+}
+
+@media (max-width: 1000px){
+    .header{
+        font-size: 14px;
+        padding: 10px;
+    }
+    .form{
+        width: 90%;
+        max-width: 380px;
+        height: 70%;
+        
+    }
+    .form h2{
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    .form-content{
+        margin-bottom: 16px;
+    }
+
+    .form-content label{
+        font-size: 15px; 
+    }
+
+    .form-content input{
+        padding: 8px;
+    }
+
+    .form-content a{
+        font-size: 12px;
+    }
+
+    .form button{
+        padding: 8px;
+        font-size: 18px;
+    }
+    .rodape p {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 600px){
+    .form{
+        width: 95%;
+        max-width: 280px;
+    }
+
+    .header{
+        font-size: 12px;
+    }
+
+    .form h2{
+        font-size: 14px;
+    }
+>>>>>>> d724f269e50f257715dd55b5e0c9bf5179babf22
 }
 
 

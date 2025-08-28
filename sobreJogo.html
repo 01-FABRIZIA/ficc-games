@@ -1,0 +1,214 @@
+<!-- <!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GTA 6 - FICC Games</title>
+    <link rel="stylesheet" href="src/img-sobre/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">FICC GAMES</h1>
+      <nav>
+        <a href="#">Jogos</a> / <a href="#">Moba</a> / <a href="#">Ação</a> /
+        <span class="active">GTA 6 - Grand Theft Auto VI</span>
+      </nav>
+      <div class="search">
+        <input type="text" placeholder="Pesquisar..." />
+      </div>
+    </header>
+
+    <main>
+      <aside class="sidebar">
+        <h3>Filtro</h3>
+        <div class="tags">
+          <span class="tag">Moba ✖</span>
+          <span class="tag">Ação ✖</span>
+          <span class="tag">Fantasia ✖</span>
+        </div>
+
+        <label>Label</label>
+        <input type="range" min="0" max="260" />
+
+        <div class="category">
+          <h4>Categoria</h4>
+          <label><input type="checkbox" /> Mais vendidos</label>
+          <label><input type="checkbox" /> Melhores pontuações</label>
+        </div>
+
+        <div class="genre">
+          <h4>Filtrar por Gênero</h4>
+          <label><input type="checkbox" /> Ação</label>
+          <label><input type="checkbox" /> Casual</label>
+          <label><input type="checkbox" /> Indie</label>
+        </div>
+      </aside>
+
+      <section class="content">
+        <div class="game-card">
+          <img src="img-sobre/img-gta.jpeg" alt="GTA 6" />
+          <div class="rating">★★★★★</div>
+        </div>
+
+        <div class="game-info">
+          <h2>Grand Theft Auto VI</h2>
+          <p>
+            Explore uma nova era do crime em Grand Theft Auto VI, o mais
+            aguardado lançamento da Rockstar Games.
+          </p>
+          <p>
+            Situado em Vice City e regiões próximas, o jogo oferece um mundo
+            aberto vibrante e dinâmico, com gráficos de última geração, física
+            realista e uma narrativa envolvente focada em novos protagonistas.
+          </p>
+          <p>
+            Explore missões urbanas e rurais, personalização de personagens e a
+            experiência mais completa com o novo GTA Online.
+          </p>
+
+          <div class="buttons">
+            <button class="carrinho">Adicionar ao Carrinho</button>
+            <button class="wishlist">Adicionar à Lista de Desejos</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="social">
+        <i class="fab fa-instagram"></i>
+
+        <i class="fab fa-x-twitter"></i>
+
+        <i class="fab fa-youtube"></i>
+
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+    </footer>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalhes do Jogo - FICC Games</title>
+    <link rel="stylesheet" href="src/img-sobre/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">FICC GAMES</h1>
+      <nav>
+        <a href="#">Jogos</a> / <a href="#">Moba</a> / <a href="#">Ação</a> /
+        <span class="active">Detalhes</span>
+      </nav>
+      <div class="search">
+        <input type="text" placeholder="Pesquisar..." />
+      </div>
+    </header>
+
+    <main>
+      <aside class="sidebar">
+        <h3>Filtro</h3>
+        <div class="tags">
+          <span class="tag">Moba ✖</span>
+          <span class="tag">Ação ✖</span>
+          <span class="tag">Fantasia ✖</span>
+        </div>
+
+        <label>Label</label>
+        <input type="range" min="0" max="260" />
+
+        <div class="category">
+          <h4>Categoria</h4>
+          <label><input type="checkbox" /> Mais vendidos</label>
+          <label><input type="checkbox" /> Melhores pontuações</label>
+        </div>
+
+        <div class="genre">
+          <h4>Filtrar por Gênero</h4>
+          <label><input type="checkbox" /> Ação</label>
+          <label><input type="checkbox" /> Casual</label>
+          <label><input type="checkbox" /> Indie</label>
+        </div>
+      </aside>
+
+      <section class="content">
+        <div class="game-card">
+          <img src="img-sobre/img-gta.jpeg" alt="Jogo" />
+          <div class="rating">★★★★★</div>
+        </div>
+
+        <div class="game-info">
+          <h2>Título do Jogo</h2>
+          <p>Descrição 1 do jogo.</p>
+          <p>Descrição 2 do jogo.</p>
+          <p>Descrição 3 do jogo.</p>
+
+          <div class="buttons">
+            <button class="carrinho">Adicionar ao Carrinho</button>
+            <button class="wishlist">Adicionar à Lista de Desejos</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="social">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-x-twitter"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+    </footer>
+
+    <!-- SCRIPT PARA BUSCAR DADOS DO JOGO -->
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const jogoId = params.get("jogo");
+
+      if (jogoId) {
+        fetch(`/api/jogo/${jogoId}`)
+          .then((res) => res.json())
+          .then((dados) => {
+            if (!dados.erro) {
+              // Atualiza título
+              document.querySelector(".game-info h2").textContent =
+                dados.titulo;
+
+              // Atualiza imagem
+              const img = document.querySelector(".game-card img");
+              img.src = dados.imagem;
+
+              // Atualiza todos os parágrafos da descrição
+              const paragrafos = document.querySelectorAll(".game-info p");
+              if (Array.isArray(dados.descricao)) {
+                paragrafos.forEach((p, i) => {
+                  p.textContent = dados.descricao[i] || "";
+                });
+              } else {
+                paragrafos[0].textContent = dados.descricao;
+              }
+            } else {
+              document.querySelector(".game-info h2").textContent =
+                "Jogo não encontrado";
+            }
+          })
+          .catch((err) => {
+            console.error("Erro ao buscar jogo:", err);
+            document.querySelector(".game-info h2").textContent =
+              "Erro ao carregar dados do jogo";
+          });
+      }
+    </script>
+  </body>
+</html>
