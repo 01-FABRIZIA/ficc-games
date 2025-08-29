@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<<<<<<< HEAD
 
 <head>
     <meta charset="UTF-8">
@@ -17,8 +16,8 @@
 
             <nav class="nav-links">
                 <a href="#">Home</a>
-                <a href="#">Catálogo</a>
-                <a href="#">Entre ou cadastre-se</a>
+                <a href="ficc-games/galeria.html">Catálogo</a>
+                <a href="ficc-games/index.html">Entre ou cadastre-se</a>
             </nav>
 
             <button class="menu-button">
@@ -36,19 +35,19 @@
            <input type="radio" name="btn-radio" id="radio4"> 
 
            <div class="slide-box primeiro">
-            <a href="#"><img src="img/the-midnight-walk.avif" alt=""></a>
+            <a href="#" id="btn-10"><img src="img/the-midnight-walk.avif" alt=""></a>
            </div>
 
            <div class="slide-box">
-            <a href="#"><img src="img/blue-prince.avif" alt=""></a>
+            <a href="#" id="btn-9"><img src="img/blue-prince.avif" alt=""></a>
            </div>
 
            <div class="slide-box">
-            <a href="#"><img src="img/valorant.avif" alt=""></a>
+            <a href="#" id="btn-8"><img src="img/valorant.avif" alt=""></a>
            </div>
 
            <div class="slide-box">
-            <a href="#"><img src="img/demon-slayer.avif" alt=""></a>
+            <a href="#" id="btn-11"><img src="img/demon-slayer.avif" alt=""></a>
            </div>
 
            <div class="nav-auto">
@@ -82,25 +81,25 @@
                     <img src="img/minecraft.avif" alt="Minecraft">
                     <h3>Minecraft</h3>
                     <p class="price">R$ 114,90</p>
-                    <a href="#" class="btn">Ver mais</a>
+                    <a href="#" id="btn-1"><button class="btn">Acessar</button></a>
                 </div>
                 <div class="game-card">
                     <img src="img/the-last-of-us.avif" alt="The Last Of Us Part II">
                     <h3>The Last Of Us Part II</h3>
                     <p class="price">R$ 284,90</p>
-                    <a href="#" class="btn">Ver mais</a>
+                    <a href="#" id="btn-2"><button class="btn">Acessar</button></a>
                 </div>
                 <div class="game-card">
                     <img src="img/stardewValley.avif" alt="Stardew Valley">
                     <h3>Stardew Valley</h3>
                     <p class="price">R$ 79,90</p>
-                    <a href="#" class="btn">Ver mais</a>
+                    <a href="#" id="btn-3"><button class="btn">Acessar</button></a>
                 </div>
                 <div class="game-card">
                     <img src="img/fortnite.avif" alt="Fortnite">
                     <h3>Fortnite</h3>
                     <p class="price">Gratuito</p>
-                    <a href="#" class="btn">Ver mais</a>
+                    <a href="#" id="btn-4"><button class="btn">Acessar</button></a>
                 </div>
             </div>
         </div>
@@ -118,36 +117,18 @@
                             <img src="img/grand-theft-auto.webp" alt="GTA V">
                             <h3>Grand Theft Auto V</h3>
                             <p class="price">R$ 42,90</p>
-                            <a href="#" class="btn">Ver mais</a>
-                        </li>
-                        <li class="carousel-slide">
-                            <img src="img/roblox.avif" alt="Roblox">
-                            <h3>Roblox</h3>
-                            <p class="price">Gratuito</p>
-                            <a href="#" class="btn">Ver mais</a>
+                            <a href="#" id="btn-5"><button class="btn">Acessar</button></a>
                         </li>
                         <li class="carousel-slide">
                             <img src="img/call-of-duty.avif" alt="Call of Duty">
                             <h3>Call of Duty</h3>
                             <p class="price">Gratuito</p>
-                            <a href="#" class="btn">Ver mais</a>
-                        <li class="carousel-slide">
-                            <img src="img/spider-man.avif" alt="Marvel's Spider-man">
-                            <h3>Marvel's Spider-man</h3>
-                            <p class="price">R$ 284,90</p>
-                            <a href="#" class="btn">Ver mais</a>
-                        </li>
+                            <a href="#" id="btn-6"><button class="btn">Acessar</button></a>
                         <li class="carousel-slide">
                             <img src="img/god-of-war.webp" alt="God Of War">
                             <h3>God Of War</h3>
                             <p class="price">R$ 114,90</p>
-                            <a href="#" class="btn">Ver mais</a>
-                        </li>
-                        <li class="carousel-slide">
-                            <img src="img/god-of-war-III.avif" alt="God Of War III Remastered">
-                            <h3>Call of Duty</h3>
-                            <p class="price">R$ 99,99</p>
-                            <a href="#" class="btn">Ver mais</a>
+                            <a href="#" id="btn-7"><button class="btn">Acessar</button></a>
                         </li>
                     </ul>
                 </div>
@@ -173,67 +154,5 @@
     </footer>
 
     <script src="js/script.js"></script>
-=======
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina de cadastro</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div id="container">
-        <header class="header">
-           <h1>FICC GAMES</h1> 
-        </header>
-
-        <form id="form" class="form" method="post">
-            <div class="form-header">
-                <h2>Entre Para o Mundo dos Games</h2>
-            </div>
-            <div class="form-content">
-                <label for="nome">Nome</label>
-                <input type="text" id="nome" name="nome"
-                placeholder="Digite seu nome" autofocus>
-                <a></a>
-            </div>
-
-            <div class="form-content">
-                <label for="data_nasc">Data de Nascimento</label>
-                <input type="date" id="data_nasc" name="data_nasc"
-                placeholder="Digite sua data de nascimento">
-                <a></a>
-            </div>
-
-            <div class="form-content">
-                <label for="email">E-mail</label>
-                <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
-                <a></a>
-            </div>
-
-
-            <div class="form-content">
-                <label for="password">Senha</label>
-                <input type="password" id="password"
-                name="password" placeholder="Digite sua senha">
-                <a></a>
-            </div>
-
-            <button type="submit">Cadastrar</button>
-           
-        </form>
-    
-        <footer class="rodape">
-            <div class="icones">
-                <img src="img/icone do x01.webp" alt="" width="20px" height="20px">
-                <img src="img/icone instagram.png" alt="" width="35px" height="35px">
-                <img src="img/icone you tube.png" alt="" width="50px" height="50px">
-                <img src="img/linkedin-icon-lg.png" alt="" width="25px" height="25px">
-            </div>
-            <p id="paragrafo">Todos os direitos reservados</p>
-        </footer>
-
-    </div>
-    <script src="script.js"></script>
->>>>>>> d724f269e50f257715dd55b5e0c9bf5179babf22
 </body>
 </html>
