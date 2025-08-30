@@ -7,29 +7,34 @@
 }
 
 
+
 .container {
     display: flex;
     min-height: 100vh;
-    background: #0e2a47;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0A192F, #1C3F60);
     color: #fff;
+}
+
+.container .logo {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
 }
 
 /* Barra lateral */
 .sidebar {
     width: 250px;
     padding: 20px;
-    background: #112d4e;
+    background: linear-gradient(135deg, #0A192F, #1C3F60);
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.logo {
-    font-size: 22px;
-    font-weight: bold;
-    text-align: center;
-    color: #00d4ff;
-}
 
 /* Filtros */
 .filtros h2 {
@@ -52,6 +57,7 @@
     flex-direction: column;
     gap: 5px;
     margin-bottom: 10px;
+    
 }
 
 /* Área principal */
@@ -64,20 +70,20 @@
 
 
 /* Barrra de pesquisa */
-.search-bar {
+.barra-pesquisa {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 15px;
 }
 
-.search-bar input {
+.barra-pesquisa input {
     padding: 8px;
     border: none;
     border-radius: 6px 0 0 6px;
     outline: none;
 }
 
-.search-bar button {
+.barra-pesquisa button {
     padding: 8px 10px;
     border: none;
     background: #00d4ff;
@@ -152,6 +158,40 @@
     color: #fff;
 }
 
+.buttons a,
+.buttons button {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none; /* remove o sublinhado dos <a> */
+    transition: background 0.2s ease;
+}
+
+/* Botão de compra */
+.buy {
+    background: #00d4ff;
+    color: #000;
+}
+
+/* Botão de detalhes/acessar */
+.details {
+    background: #444;
+    color: #fff;
+}
+
+/* Hover */
+.buy:hover {
+    background: #666;
+}
+
+.details:hover {
+    background: #666;
+}
+
 /* Responsividade */
 @media (max-width: 1024px) {
     .games-grid {
@@ -163,4 +203,18 @@
     .games-grid {
         grid-template-columns: repeat(1, 1fr); 
     }
+
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+footer .social a {
+    margin: 0 5px;
+    color: white;
+}
 }
