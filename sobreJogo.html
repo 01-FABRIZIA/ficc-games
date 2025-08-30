@@ -79,43 +79,8 @@
     </footer>
 
     <!-- SCRIPT PARA BUSCAR DADOS DO JOGO -->
-    <script>
-      const params = new URLSearchParams(window.location.search);
-      const jogoId = params.get("jogo");
+    <script href="src/img-sobre/server.js">
 
-      if (jogoId) {
-        fetch(`/api/jogo/${jogoId}`)
-          .then((res) => res.json())
-          .then((dados) => {
-            if (!dados.erro) {
-              // Atualiza título
-              document.querySelector(".game-info h2").textContent =
-                dados.titulo;
-
-              // Atualiza imagem
-              const img = document.querySelector(".game-card img");
-              img.src = dados.imagem;
-
-              // Atualiza todos os parágrafos da descrição
-              const paragrafos = document.querySelectorAll(".game-info p");
-              if (Array.isArray(dados.descricao)) {
-                paragrafos.forEach((p, i) => {
-                  p.textContent = dados.descricao[i] || "";
-                });
-              } else {
-                paragrafos[0].textContent = dados.descricao;
-              }
-            } else {
-              document.querySelector(".game-info h2").textContent =
-                "Jogo não encontrado";
-            }
-          })
-          .catch((err) => {
-            console.error("Erro ao buscar jogo:", err);
-            document.querySelector(".game-info h2").textContent =
-              "Erro ao carregar dados do jogo";
-          });
-      }
     </script>
   </body>
 </html>
