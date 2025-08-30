@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de cadastro</title>
+    <link rel="stylesheet" href="css/style-cadastro.css">
+</head>
+<body>
+    <div id="container">
+        <header class="header">
+           <h1>FICC GAMES</h1> 
+        </header>
+
+        <form id="form" class="form" method="post">
+            <div class="form-header">
+                <h2>Entre Para o Mundo dos Games</h2>
+            </div>
+            <div class="form-content">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome"
+                placeholder="Digite seu nome" autofocus>
+                <a></a>
+            </div>
+
+            <div class="form-content">
+                <label for="data_nasc">Data de Nascimento</label>
+                <input type="date" id="data_nasc" name="data_nasc"
+                placeholder="Digite sua data de nascimento">
+                <a></a>
+            </div>
+
+            <div class="form-content">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                <a></a>
+            </div>
+
+            <div class="form-content">
+                <label for="password">Senha</label>
+                <input type="password" id="password"
+                name="password" placeholder="Digite sua senha">
+                <a></a>
+            </div>
+
+            <button type="submit">Cadastrar</button>
+           
+        </form>
+    
+        <footer class="rodape">
+            <div class="icones">
+                <img src="img/icone do x01.webp" alt="" width="20px" height="20px">
+                <img src="img/icone instagram.png" alt="" width="35px" height="35px">
+                <img src="img/icone you tube.png" alt="" width="50px" height="50px">
+                <img src="img/linkedin-icon-lg.png" alt="" width="25px" height="25px">
+            </div>
+            <p id="paragrafo">Todos os direitos reservados</p>
+        </footer>
+
+    </div>
+    <script src="cadastro-script.js"></script>
+</body>
+</html>

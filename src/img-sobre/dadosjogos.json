@@ -1,0 +1,114 @@
+{
+  "1": {
+    "titulo": "Minecraft",
+    "descricao": [
+      "Minecraft é um jogo de construção e sobrevivência onde os jogadores exploram mundos gerados proceduralmente e constroem estruturas incríveis com blocos de diferentes materiais.",
+      "O jogo incentiva a criatividade, exploração e colaboração, oferecendo modos de sobrevivência e criativo, além de atualizações constantes com novos recursos."
+    ],
+    "imagem": "img-mine.jpeg"
+  },
+  "2": {
+    "titulo": "The Last Of Us Part II",
+    "descricao": [
+      "The Last Of Us Part II é um jogo de ação e aventura focado em narrativa, com gráficos impressionantes e uma história emocionalmente envolvente.",
+      "O jogador acompanha Ellie em uma jornada de vingança e sobrevivência em um mundo pós-apocalíptico, enfrentando inimigos humanos e infectados."
+    ],
+    "imagem": "img-theLat.jpeg"
+  },
+  "3": {
+    "titulo": "Stardew Valley",
+    "descricao": [
+      "Stardew Valley é um simulador de fazenda encantador onde os jogadores cultivam plantações, cuidam de animais e interagem com a comunidade local.",
+      "Além da agricultura, o jogo oferece mineração, pesca, exploração de cavernas e múltiplas atividades sociais, criando uma experiência relaxante e imersiva."
+    ],
+    "imagem": "img-STARDEWVALLEY.jpeg"
+  },
+  "4": {
+    "titulo": "Fortnite",
+    "descricao": [
+      "Fortnite é um jogo de battle royale onde 100 jogadores competem para ser o último sobrevivente em um mapa dinâmico.",
+      "O jogo combina tiroteio, construção e eventos ao vivo, oferecendo atualizações constantes e modos criativos que mantêm os jogadores engajados."
+    ],
+    "imagem": "img-fotnite.jpeg"
+  },
+  "5": {
+    "titulo": "Grand Theft Auto V",
+    "descricao": [
+      "Grand Theft Auto V é um jogo de mundo aberto que acompanha três protagonistas em Los Santos, uma cidade cheia de oportunidades e criminalidade.",
+      "Os jogadores podem explorar o mundo livremente, realizar missões, participar de atividades paralelas e jogar online no GTA Online."
+    ],
+    "imagem": "/img-sobre/gta5.jpeg"
+  },
+  "6": {
+    "titulo": "Call Of Duty",
+    "descricao": [
+      "Call Of Duty é uma franquia de jogos de tiro em primeira pessoa famosa por suas campanhas intensas e modos multiplayer competitivos.",
+      "Os jogos oferecem cenários variados, desde guerras históricas até combates modernos, com gráficos realistas e jogabilidade estratégica."
+    ],
+    "imagem": "img-Grand Theft Auto V.jpeg"
+  },
+  "7": {
+    "titulo": "God Of War",
+    "descricao": [
+      "God Of War acompanha Kratos em uma jornada épica pela mitologia nórdica, com combates intensos e uma narrativa profunda.",
+      "O jogo combina ação, exploração e resolução de quebra-cabeças, oferecendo uma experiência cinematográfica e imersiva para os jogadores."
+    ],
+    "imagem": "img-God Of War.jpeg"
+  },
+  "8": {
+    "titulo": "Valorant",
+    "descricao": [
+      "Valorant é um jogo de tiro tático em primeira pessoa focado em habilidades únicas de agentes e estratégias de equipe.",
+      "O jogo exige coordenação, precisão e tomada de decisões rápidas, oferecendo partidas competitivas intensas e atualizações constantes."
+    ],
+    "imagem": "img-valorant.jpeg"
+  },
+  "9": {
+    "titulo": "Blue Prince",
+    "descricao": [
+      "Blue Prince é um jogo de aventura e fantasia com narrativa envolvente e mecânicas de combate estratégicas.",
+      "Os jogadores exploram mundos mágicos, enfrentam inimigos desafiadores e desbloqueiam habilidades enquanto descobrem segredos da história."
+    ],
+    "imagem": "img-blue Prince.jpeg"
+  },
+  "10": {
+    "titulo": "The Midnight",
+    "descricao": [
+      "The Midnight é um jogo de aventura narrativa com estética retrô e atmosfera de suspense e mistério.",
+      "O jogador explora uma cidade sombria, resolve enigmas e descobre uma história envolvente cheia de reviravoltas."
+    ],
+    "imagem": "img-the midnight.jpeg"
+  },
+  "11": {
+    "titulo": "Demon Slayer - Kimetsu no Yaiba - The Hinokami Chronicles 2 Standard",
+    "descricao": [
+      "Demon Slayer - The Hinokami Chronicles 2 é um jogo de ação baseado no famoso anime, permitindo reviver batalhas épicas.",
+      "Os jogadores controlam personagens icônicos, usam técnicas especiais e seguem a narrativa emocionante da série."
+    ],
+    "imagem": "img-Demon Slayer - Kimetsu no Yaiba - The Hinokami Chronicles 2 Standard.jpeg"
+  },
+  "12": {
+    "titulo": "HON",
+    "descricao": [
+      "Heroes of Newerth (HON) é um MOBA competitivo onde duas equipes de cinco jogadores lutam para destruir a base inimiga.",
+      "O jogo combina estratégia, habilidades únicas de heróis e trabalho em equipe, oferecendo partidas rápidas e desafiadoras."
+    ],
+    "imagem": "img-HON.jpeg"
+  },
+  "13": {
+    "titulo": "DOTA2",
+    "descricao": [
+      "DOTA2 é um MOBA estratégico onde duas equipes de cinco jogadores competem para destruir a base adversária.",
+      "Cada herói possui habilidades únicas, e o jogo exige coordenação, planejamento e execução precisa para vencer as partidas."
+    ],
+    "imagem": "img-DOTA2.jpeg"
+  },
+  "14": {
+    "titulo": "Pargon",
+    "descricao": [
+      "Pargon é um jogo de ação e aventura com elementos de RPG e exploração de mundos fantásticos.",
+      "Os jogadores enfrentam inimigos variados, desbloqueiam habilidades e descobrem segredos enquanto avançam na história."
+    ],
+    "imagem": "img-Pargon.jpeg"
+  }
+}

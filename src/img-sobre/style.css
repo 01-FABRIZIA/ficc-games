@@ -1,0 +1,185 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #3a6fa0, #1b2b40);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+nav a,
+nav span {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav .active {
+  font-weight: bold;
+}
+
+.search input {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+main {
+  display: flex;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 20%;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.sidebar h3,
+.sidebar h4 {
+  margin-top: 0;
+}
+
+.tags {
+  margin-bottom: 10px;
+}
+
+.tag {
+  display: inline-block;
+  background: #4a90e2;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 2px;
+  font-size: 12px;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+  width: 80%;
+}
+
+.game-card img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.rating {
+  margin-top: 10px;
+  color: gold;
+  font-size: 18px;
+}
+
+.game-info {
+  width: 600px;
+}
+
+.game-info h2 {
+  margin-top: 0;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.carrinho {
+  background: #4caf50;
+  color: white;
+}
+
+.wishlist {
+  background: #007bff;
+  color: white;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 15px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+footer .social a {
+  margin: 0 5px;
+  color: white;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+#catalogo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.card h2 {
+  margin: 10px 0;
+}
+
+.card p {
+  text-align: justify;
+  font-size: 0.9em;
+}
+
+.card button {
+  margin-top: 10px;
+  padding: 10px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #45a049;
+}

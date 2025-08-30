@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <link rel="stylesheet" href="css-pginicial/style-pginicial.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="container nav-content">
+            <h1 class="logo">FICC GAMES</h1>
+
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a href="/ficc-games/galeria.html">Catálogo</a>
+                <a href="/ficc-games/login.html">Entre</a>
+                <a href="/ficc-games/cadastro.html">Cadastre-se</a>
+            </nav>
+
+            <button class="menu-button">
+                <img src="src/img-pginicial/menu.png" alt="Menu">
+            </button>
+        </div>
+    </header>
+
+    <!-- Banner de Promoção -->
+    <section class="banner slider">
+        <div class="slider-content">
+           <input type="radio" name="btn-radio" id="radio1"> 
+           <input type="radio" name="btn-radio" id="radio2"> 
+           <input type="radio" name="btn-radio" id="radio3"> 
+           <input type="radio" name="btn-radio" id="radio4"> 
+
+           <div class="slide-box primeiro">
+            <a href="/ficc-games/sobreJogo.html" id="btn-10"><img src="src/img-pginicial/the-midnight-walk.avif" alt=""></a>
+           </div>
+
+           <div class="slide-box">
+            <a href="/ficc-games/sobreJogo.html" id="btn-9"><img src="src/img-pginicial/blue-prince.avif" alt=""></a>
+           </div>
+
+           <div class="slide-box">
+            <a href="/ficc-games/sobreJogo.html" id="btn-8"><img src="src/img-pginicial/valorant.avif" alt=""></a>
+           </div>
+
+           <div class="slide-box">
+            <a href="/ficc-games/sobreJogo.html" id="btn-11"><img src="src/img-pginicial/demon-slayer.avif" alt=""></a>
+           </div>
+
+           <div class="nav-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+           </div>
+
+           <div class="nav-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+           </div>
+
+        </div>
+    
+        <div class="banner-text">
+            <h2>Promoção de Verão</h2>
+            <p>até 40% OFF</p>
+        </div>
+    </section>
+
+    <!-- Mais Jogados -->
+    <section class="games-section">
+        <div class="container">
+            <h2>Mais Jogados</h2>
+            <div class="games-grid">
+                <div class="game-card">
+                    <img src="src/img-pginicial/minecraft.avif" alt="Minecraft">
+                    <h3>Minecraft</h3>
+                    <p class="price">R$ 114,90</p>
+                    <a href="/ficc-games/sobreJogo.html" id="1"><button class="btn">Acessar</button></a>
+                </div>
+                <div class="game-card">
+                    <img src="src/img-pginicial/the-last-of-us.avif" alt="The Last Of Us Part II">
+                    <h3>The Last Of Us Part II</h3>
+                    <p class="price">R$ 284,90</p>
+                    <a href="/ficc-games/sobreJogo.html" id="btn-2"><button class="btn">Acessar</button></a>
+                </div>
+                <div class="game-card">
+                    <img src="src/img-pginicial/stardewValley.avif" alt="Stardew Valley">
+                    <h3>Stardew Valley</h3>
+                    <p class="price">R$ 79,90</p>
+                    <a href="/ficc-games/sobreJogo.html" id="btn-3"><button class="btn">Acessar</button></a>
+                </div>
+                <div class="game-card">
+                    <img src="src/img-pginicial/fortnite.avif" alt="Fortnite">
+                    <h3>Fortnite</h3>
+                    <p class="price">Gratuito</p>
+                    <a href="/ficc-games/sobreJogo.html" id="btn-4"><button class="btn">Acessar</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destaques -->
+    <section class="games-section">
+        <div class="container">
+            <h2>Destaques</h2>
+            <div class="carousel">
+                <button class="carousel-btn prev">&#10094;</button>
+                <div class="carousel-track-container">
+                    <ul class="carousel-track">
+                        <li class="carousel-slide">
+                            <img src="src/img-pginicial/grand-theft-auto.webp" alt="GTA V">
+                            <h3>Grand Theft Auto V</h3>
+                            <p class="price">R$ 42,90</p>
+                            <a href="/ficc-games/sobreJogo.html" id="btn-5"><button class="btn">Acessar</button></a>
+                        </li>
+                        <li class="carousel-slide">
+                            <img src="src/img-pginicial/call-of-duty.avif" alt="Call of Duty">
+                            <h3>Call of Duty</h3>
+                            <p class="price">Gratuito</p>
+                            <a href="/ficc-games/sobreJogo.html" id="btn-6"><button class="btn">Acessar</button></a>
+                        <li class="carousel-slide">
+                            <img src="src/img-pginicial/god-of-war.webp" alt="God Of War">
+                            <h3>God Of War</h3>
+                            <p class="price">R$ 114,90</p>
+                            <a href="/ficc-games/sobreJogo.html" id="btn-7"><button class="btn">Acessar</button></a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="carousel-btn next">&#10095;</button>
+            </div>
+            <div class="carousel-nav">
+                <button class="carousel-indicator current-slide"></button>
+                <button class="carousel-indicator"></button>
+                <button class="carousel-indicator"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="social-icons">
+            <img src="src/img-pginicial/x-logo.png" alt="Twitter">
+            <img src="src/img-pginicial/instagram-logo.png" alt="Instagram">
+            <img src="src/img-pginicial/youtube.png" alt="YouTube">
+            <img src="src/img-pginicial/linkedin.png" alt="Linkedin">
+        </div>
+        <p>Todos os direitos reservados</p>
+    </footer>
+
+    <script src="js-pginicial/script.js"></script>
+</body>
+</html>
