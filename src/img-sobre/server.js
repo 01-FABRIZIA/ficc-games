@@ -1,4 +1,6 @@
-fetch("src/img-sobre/dadosjogos.json")
+const repoName = "repositorio";
+
+fetch(`/${repoName}/src/img-sobre/dadosjogos.json`)
   .then((response) => response.json())
   .then((jogos) => {
     const catalogo = document.getElementById("catalogo");
